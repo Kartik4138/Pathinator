@@ -7,6 +7,7 @@ Pathinator is a full-stack project featuring a route-planning Android applicatio
 ## 📋 Table of Contents
 
 - [About The Project](#about-the-project)
+- [Project Demo](#-project-demo)
 - [✨ Features](#-features)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📂 Project Structure](#-project-structure)
@@ -22,6 +23,14 @@ Pathinator is a full-stack project featuring a route-planning Android applicatio
 ## About The Project
 
 This project demonstrates a modern mobile application architecture. The Kotlin-based Android app communicates with a Python FastAPI server via a REST API to perform actions like user registration, login, and storing/retrieving path data.
+
+---
+
+## 🎥 Project Demo
+
+Click the thumbnail below to watch a short demo of the app in action:
+
+[![Pathinator App Demo](https://img.youtube.com/vi/cUkibsHdCyM/0.jpg)](https://youtube.com/shorts/cUkibsHdCyM?feature=share)
 
 ---
 
@@ -100,7 +109,7 @@ Make sure you have the following software installed:
     ```
     If the file doesn't exist, install packages manually and create it:
     ```bash
-    pip install fastapi uvicorn sqlalchemy asyncpg python-dotenv pydantic python-jose passlib[bcrypt]
+    pip install fastapi uvicorn sqlalchemy asyncpg python-dotenv pantic python-jose passlib[bcrypt]
     pip freeze > requirements.txt
     ```
 
